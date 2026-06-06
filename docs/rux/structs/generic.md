@@ -32,3 +32,7 @@ let p = Pair<int32, float64> { first: 1, second: 2.5 };
 * The compiler preserves generic type information in the type system and lowering layers.
 * Backend code generation for generics is a separate concern from parsing and semantic tracking.
 * Generics are **not** yet implemented in the backend.
+
+!!! warning
+    Generic syntax is currently supported by the frontend of the compiler.
+    Backend support is incomplete and generic code may fail during lowering or code generation.

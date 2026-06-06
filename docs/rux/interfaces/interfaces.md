@@ -757,31 +757,3 @@ The semantic analyzer stores interface method names and compares them against im
 ### No interface type parameters in the reviewed parser
 
 The reviewed parser shows plain `interface Name { ... }` syntax, not a generic `interface Name<T> { ... }` form.
-
----
-
-## Implementation Notes
-
-This section describes how the compiler currently handles interfaces internally.
-
-### Parsing
-
-The parser recognizes:
-
-* `interface Name { ... }`
-* optional `pub`
-* `func` declarations in the interface body
-* `extend TypeName : InterfaceName { ... }`
-* `extend InterfaceName for TypeName { ... }`
-
-### Semantic analysis
-
-The semantic analyzer:
-
-* stores interfaces in a dedicated symbol kind
-* records method names for each interface
-* rejects duplicate method names inside one interface
-* resolves method parameter and return types
-* checks `extend` blocks against required interface methods
-* tracks which concrete types implement which interfaces
-* uses interface satisfaction during assignability checks
