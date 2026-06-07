@@ -344,10 +344,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#installer" class="md-nav__link">
+  <a href="#releases" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Installer
+        Releases
       
     </span>
   </a>
@@ -374,7 +374,7 @@
   <a href="#fedora-and-copr-based-distributions" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Fedora and COPR-based Distributions
+        Fedora and COPR-Based Distributions
       
     </span>
   </a>
@@ -2390,10 +2390,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#installer" class="md-nav__link">
+  <a href="#releases" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Installer
+        Releases
       
     </span>
   </a>
@@ -2420,7 +2420,7 @@
   <a href="#fedora-and-copr-based-distributions" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Fedora and COPR-based Distributions
+        Fedora and COPR-Based Distributions
       
     </span>
   </a>
@@ -2520,7 +2520,7 @@
 
 
 <h1 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">&para;</a></h1>
-<p>This guide explains how to install the Rux compiler.</p>
+<p>This guide explains how to install the Rux compiler and package manager.</p>
 <hr />
 <h2 id="windows">Windows<a class="headerlink" href="#windows" title="Permanent link">&para;</a></h2>
 <h3 id="scoop-recommended">Scoop (Recommended)<a class="headerlink" href="#scoop-recommended" title="Permanent link">&para;</a></h3>
@@ -2530,33 +2530,34 @@
 <p>Install Rux:</p>
 <div class="language-powershell highlight"><pre><span></span><code><span class="n">scoop</span> <span class="n">install</span> <span class="n">rux-lang</span><span class="p">/</span><span class="n">rux</span>
 </code></pre></div>
-<h3 id="installer">Installer<a class="headerlink" href="#installer" title="Permanent link">&para;</a></h3>
-<p>Download the latest installer from the GitHub releases page.</p>
-<p>Available installers:</p>
+<h3 id="releases">Releases<a class="headerlink" href="#releases" title="Permanent link">&para;</a></h3>
+<p>Prebuilt binaries are available from the GitHub releases page.</p>
+<p>Available downloads:</p>
 <ul>
-<li><code>.msi</code></li>
-<li><code>.exe</code></li>
+<li><code>.msi</code> — installs Rux on the system</li>
+<li><code>.exe</code> — standalone Rux executable</li>
 </ul>
-<p>Run the installer and follow the on-screen instructions.</p>
+<p>The standalone executable can be used directly without running an installer.</p>
 <hr />
 <h2 id="arch-linux">Arch Linux<a class="headerlink" href="#arch-linux" title="Permanent link">&para;</a></h2>
-<p>Rux is available through the AUR.</p>
+<p>Rux is available from the AUR.</p>
 <div class="language-bash highlight"><pre><span></span><code>yay<span class="w"> </span>-S<span class="w"> </span>rux-git
 </code></pre></div>
 <p>or</p>
 <div class="language-bash highlight"><pre><span></span><code>paru<span class="w"> </span>-S<span class="w"> </span>rux-git
 </code></pre></div>
 <hr />
-<h2 id="fedora-and-copr-based-distributions">Fedora and COPR-based Distributions<a class="headerlink" href="#fedora-and-copr-based-distributions" title="Permanent link">&para;</a></h2>
+<h2 id="fedora-and-copr-based-distributions">Fedora and COPR-Based Distributions<a class="headerlink" href="#fedora-and-copr-based-distributions" title="Permanent link">&para;</a></h2>
 <p>Enable the Rux COPR repository:</p>
 <div class="language-bash highlight"><pre><span></span><code>sudo<span class="w"> </span>dnf<span class="w"> </span>copr<span class="w"> </span><span class="nb">enable</span><span class="w"> </span>zapaxe/Rux-Lang
 </code></pre></div>
 <p>Install Rux:</p>
 <div class="language-bash highlight"><pre><span></span><code>sudo<span class="w"> </span>dnf<span class="w"> </span>install<span class="w"> </span>rux
 </code></pre></div>
+<hr />
 <h2 id="other-distributions">Other Distributions<a class="headerlink" href="#other-distributions" title="Permanent link">&para;</a></h2>
-<p>For distributions without an official package, Rux can be built from <a href="https://github.com/rux-lang/Rux/">source</a>.</p>
-<p>See the build instructions in the repository for details.</p>
+<p>For distributions without an official package, Rux can be built from source.</p>
+<p>See the repository build instructions for the latest requirements and build steps.</p>
 <hr />
 <h2 id="verify-installation">Verify Installation<a class="headerlink" href="#verify-installation" title="Permanent link">&para;</a></h2>
 <p>Open a terminal and run:</p>
