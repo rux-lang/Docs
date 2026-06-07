@@ -14,12 +14,11 @@ Type parameters are parsed, preserved through semantic analysis, and carried int
 
 ```rux
 struct Pair<T, U> {
-    first: T;
+    first: T;\
     second: U;
 }
 ```
-
-
+ 
 ## Construction with type arguments
 
 ```rux
