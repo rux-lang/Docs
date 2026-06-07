@@ -2,170 +2,186 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://rux-lang.github.io/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/installation/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/generics/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/generics/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/enums/enums/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/enums/enums/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/functions/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/functions/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/functions/call/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/functions/call/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/functions/common_errors/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/functions/common_errors/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/functions/declaration/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/functions/declaration/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/functions/default_params/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/functions/default_params/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/functions/examples/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/functions/examples/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/functions/extend/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/functions/extend/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/functions/external/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/functions/external/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/functions/function_kinds/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/functions/function_kinds/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/functions/impl_notes/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/functions/impl_notes/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/functions/notes/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/functions/notes/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/functions/overload/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/functions/overload/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/functions/params/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/functions/params/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/functions/return_types/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/functions/return_types/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/functions/type_params/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/functions/type_params/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/functions/variadic/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/functions/variadic/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/functions/methods/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/functions/methods/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/functions/methods/instance/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/functions/methods/instance/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/functions/methods/operator/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/functions/methods/operator/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/functions/methods/resolution/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/functions/methods/resolution/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/functions/methods/static/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/functions/methods/static/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/interfaces/interfaces/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/interfaces/interfaces/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/pointers/pointers/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/pointers/pointers/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/structs/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/structs/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/structs/construction/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/structs/construction/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/structs/declaration/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/structs/declaration/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/structs/errors/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/structs/errors/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/structs/examples/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/structs/examples/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/structs/extend/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/structs/extend/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/structs/fields/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/structs/fields/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/structs/generic/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/structs/generic/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/structs/impl_notes/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/structs/impl_notes/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/structs/interface/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/structs/interface/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/structs/match/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/structs/match/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/structs/memory/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/structs/memory/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/types/types/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/types/types/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/unions/unions/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/unions/common_errors/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
     <url>
-         <loc>https://rux-lang.github.io/rux/variables/variables/</loc>
-         <lastmod>2026-06-06</lastmod>
+         <loc>https://rux-lang.github.io/reference/unions/declaration/</loc>
+         <lastmod>2026-06-07</lastmod>
+    </url>
+    <url>
+         <loc>https://rux-lang.github.io/reference/unions/examples/</loc>
+         <lastmod>2026-06-07</lastmod>
+    </url>
+    <url>
+         <loc>https://rux-lang.github.io/reference/unions/fields/</loc>
+         <lastmod>2026-06-07</lastmod>
+    </url>
+    <url>
+         <loc>https://rux-lang.github.io/reference/unions/index./</loc>
+         <lastmod>2026-06-07</lastmod>
+    </url>
+    <url>
+         <loc>https://rux-lang.github.io/reference/variables/variables/</loc>
+         <lastmod>2026-06-07</lastmod>
     </url>
 </urlset>

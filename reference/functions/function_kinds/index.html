@@ -10,25 +10,31 @@
       
       
       
+        <link rel="canonical" href="https://rux-lang.github.io/reference/functions/function_kinds/">
       
+      
+        <link rel="prev" href="../external/">
+      
+      
+        <link rel="next" href="../impl_notes/">
       
       
         
       
       
-      <link rel="icon" href="/assets/logo.png">
+      <link rel="icon" href="../../../assets/logo.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
     
     
       
-        <title>Rux Documentation</title>
+        <title>Function Kinds - Rux Documentation</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -47,9 +53,9 @@
       
     
     
-      <link rel="stylesheet" href="/stylesheets/extra.css">
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -71,6 +77,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#function-kinds" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -83,9 +94,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/." title="Rux Documentation" class="md-header__button md-logo" aria-label="Rux Documentation" data-md-component="logo">
+    <a href="../../.." title="Rux Documentation" class="md-header__button md-logo" aria-label="Rux Documentation" data-md-component="logo">
       
-  <img src="/assets/logo.png" alt="logo">
+  <img src="../../../assets/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -102,7 +113,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Function Kinds
             
           </span>
         </div>
@@ -194,9 +205,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="Rux Documentation" class="md-nav__button md-logo" aria-label="Rux Documentation" data-md-component="logo">
+    <a href="../../.." title="Rux Documentation" class="md-nav__button md-logo" aria-label="Rux Documentation" data-md-component="logo">
       
-  <img src="/assets/logo.png" alt="logo">
+  <img src="../../../assets/logo.png" alt="logo">
 
     </a>
     Rux Documentation
@@ -223,7 +234,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -250,7 +261,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/installation/" class="md-nav__link">
+      <a href="../../../installation/" class="md-nav__link">
         
   
   
@@ -274,8 +285,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -306,11 +319,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
@@ -331,7 +344,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -349,7 +362,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/generics/" class="md-nav__link">
+      <a href="../../generics/" class="md-nav__link">
         
   
   
@@ -430,7 +443,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/enums/enums/" class="md-nav__link">
+      <a href="../../enums/enums/" class="md-nav__link">
         
   
   
@@ -463,6 +476,8 @@
                 
   
   
+    
+  
   
   
     
@@ -510,15 +525,15 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" checked>
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="/reference/functions/" class="md-nav__link ">
+            <a href="../" class="md-nav__link ">
               
   
   
@@ -542,7 +557,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -562,7 +577,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/functions/call/" class="md-nav__link">
+      <a href="../call/" class="md-nav__link">
         
   
   
@@ -590,7 +605,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/functions/common_errors/" class="md-nav__link">
+      <a href="../common_errors/" class="md-nav__link">
         
   
   
@@ -618,7 +633,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/functions/declaration/" class="md-nav__link">
+      <a href="../declaration/" class="md-nav__link">
         
   
   
@@ -646,7 +661,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/functions/default_params/" class="md-nav__link">
+      <a href="../default_params/" class="md-nav__link">
         
   
   
@@ -674,7 +689,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/functions/examples/" class="md-nav__link">
+      <a href="../examples/" class="md-nav__link">
         
   
   
@@ -702,7 +717,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/functions/extend/" class="md-nav__link">
+      <a href="../extend/" class="md-nav__link">
         
   
   
@@ -730,7 +745,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/functions/external/" class="md-nav__link">
+      <a href="../external/" class="md-nav__link">
         
   
   
@@ -755,10 +770,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/reference/functions/function_kinds/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Function Kinds
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -774,6 +816,92 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#regular-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Regular functions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#signature-only-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Signature-only functions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#operator-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Operator functions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Methods
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#external-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        External functions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#assembly-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Assembly functions
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -786,7 +914,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/functions/impl_notes/" class="md-nav__link">
+      <a href="../impl_notes/" class="md-nav__link">
         
   
   
@@ -814,7 +942,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/functions/notes/" class="md-nav__link">
+      <a href="../notes/" class="md-nav__link">
         
   
   
@@ -842,7 +970,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/functions/overload/" class="md-nav__link">
+      <a href="../overload/" class="md-nav__link">
         
   
   
@@ -870,7 +998,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/functions/params/" class="md-nav__link">
+      <a href="../params/" class="md-nav__link">
         
   
   
@@ -898,7 +1026,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/functions/return_types/" class="md-nav__link">
+      <a href="../return_types/" class="md-nav__link">
         
   
   
@@ -926,7 +1054,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/functions/type_params/" class="md-nav__link">
+      <a href="../type_params/" class="md-nav__link">
         
   
   
@@ -954,7 +1082,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/functions/variadic/" class="md-nav__link">
+      <a href="../variadic/" class="md-nav__link">
         
   
   
@@ -1010,7 +1138,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="/reference/functions/methods/" class="md-nav__link ">
+            <a href="../methods/" class="md-nav__link ">
               
   
   
@@ -1054,7 +1182,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/functions/methods/instance/" class="md-nav__link">
+      <a href="../methods/instance/" class="md-nav__link">
         
   
   
@@ -1082,7 +1210,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/functions/methods/operator/" class="md-nav__link">
+      <a href="../methods/operator/" class="md-nav__link">
         
   
   
@@ -1110,7 +1238,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/functions/methods/resolution/" class="md-nav__link">
+      <a href="../methods/resolution/" class="md-nav__link">
         
   
   
@@ -1138,7 +1266,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/functions/methods/static/" class="md-nav__link">
+      <a href="../methods/static/" class="md-nav__link">
         
   
   
@@ -1235,7 +1363,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/interfaces/interfaces/" class="md-nav__link">
+      <a href="../../interfaces/interfaces/" class="md-nav__link">
         
   
   
@@ -1324,7 +1452,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/pointers/pointers/" class="md-nav__link">
+      <a href="../../pointers/pointers/" class="md-nav__link">
         
   
   
@@ -1402,7 +1530,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="/reference/structs/" class="md-nav__link ">
+            <a href="../../structs/" class="md-nav__link ">
               
   
   
@@ -1446,7 +1574,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/structs/construction/" class="md-nav__link">
+      <a href="../../structs/construction/" class="md-nav__link">
         
   
   
@@ -1474,7 +1602,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/structs/declaration/" class="md-nav__link">
+      <a href="../../structs/declaration/" class="md-nav__link">
         
   
   
@@ -1502,7 +1630,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/structs/errors/" class="md-nav__link">
+      <a href="../../structs/errors/" class="md-nav__link">
         
   
   
@@ -1530,7 +1658,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/structs/examples/" class="md-nav__link">
+      <a href="../../structs/examples/" class="md-nav__link">
         
   
   
@@ -1558,7 +1686,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/structs/extend/" class="md-nav__link">
+      <a href="../../structs/extend/" class="md-nav__link">
         
   
   
@@ -1586,7 +1714,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/structs/fields/" class="md-nav__link">
+      <a href="../../structs/fields/" class="md-nav__link">
         
   
   
@@ -1614,7 +1742,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/structs/generic/" class="md-nav__link">
+      <a href="../../structs/generic/" class="md-nav__link">
         
   
   
@@ -1642,7 +1770,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/structs/impl_notes/" class="md-nav__link">
+      <a href="../../structs/impl_notes/" class="md-nav__link">
         
   
   
@@ -1670,7 +1798,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/structs/interface/" class="md-nav__link">
+      <a href="../../structs/interface/" class="md-nav__link">
         
   
   
@@ -1698,7 +1826,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/structs/match/" class="md-nav__link">
+      <a href="../../structs/match/" class="md-nav__link">
         
   
   
@@ -1726,7 +1854,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/structs/memory/" class="md-nav__link">
+      <a href="../../structs/memory/" class="md-nav__link">
         
   
   
@@ -1815,7 +1943,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/types/types/" class="md-nav__link">
+      <a href="../../types/types/" class="md-nav__link">
         
   
   
@@ -1912,7 +2040,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/unions/common_errors/" class="md-nav__link">
+      <a href="../../unions/common_errors/" class="md-nav__link">
         
   
   
@@ -1940,7 +2068,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/unions/declaration/" class="md-nav__link">
+      <a href="../../unions/declaration/" class="md-nav__link">
         
   
   
@@ -1968,7 +2096,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/unions/examples/" class="md-nav__link">
+      <a href="../../unions/examples/" class="md-nav__link">
         
   
   
@@ -1996,7 +2124,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/unions/fields/" class="md-nav__link">
+      <a href="../../unions/fields/" class="md-nav__link">
         
   
   
@@ -2024,7 +2152,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/unions/index./" class="md-nav__link">
+      <a href="../../unions/index./" class="md-nav__link">
         
   
   
@@ -2113,7 +2241,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/reference/variables/variables/" class="md-nav__link">
+      <a href="../../variables/variables/" class="md-nav__link">
         
   
   
@@ -2166,6 +2294,82 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#regular-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Regular functions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#signature-only-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Signature-only functions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#operator-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Operator functions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Methods
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#external-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        External functions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#assembly-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Assembly functions
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -2178,8 +2382,65 @@
               
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+  
+  
+
+
+<h1 id="function-kinds">Function Kinds<a class="headerlink" href="#function-kinds" title="Permanent link">&para;</a></h1>
+<h2 id="regular-functions">Regular functions<a class="headerlink" href="#regular-functions" title="Permanent link">&para;</a></h2>
+<p>Regular functions are declared with <code>func</code>.</p>
+<div class="language-rux highlight"><pre><span></span><code><span class="k">func</span><span class="w"> </span><span class="nf">Add</span><span class="p">(</span><span class="n">a</span><span class="p">:</span><span class="w"> </span><span class="kt">int32</span><span class="p">,</span><span class="w"> </span><span class="n">b</span><span class="p">:</span><span class="w"> </span><span class="kt">int32</span><span class="p">)</span><span class="w"> </span><span class="o">-</span><span class="p">&gt;</span><span class="w"> </span><span class="kt">int32</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">b</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>These are the standard callable declarations used for ordinary code.</p>
+<h2 id="signature-only-functions">Signature-only functions<a class="headerlink" href="#signature-only-functions" title="Permanent link">&para;</a></h2>
+<p>A function may be declared without a body.</p>
+<div class="language-rux highlight"><pre><span></span><code><span class="k">func</span><span class="w"> </span><span class="nf">PrintLine</span><span class="p">(</span><span class="n">text</span><span class="p">:</span><span class="w"> </span><span class="kt">char8</span><span class="p">[]);</span>
+</code></pre></div>
+<p>This form is useful for declarations that are defined elsewhere or only needed as a signature.</p>
+<h2 id="operator-functions">Operator functions<a class="headerlink" href="#operator-functions" title="Permanent link">&para;</a></h2>
+<p>Functions may use operator names.</p>
+<div class="language-rux highlight"><pre><span></span><code><span class="n">func</span><span class="w"> </span><span class="o">+</span><span class="p">(</span><span class="n">a</span><span class="p">:</span><span class="w"> </span><span class="n">Vector</span><span class="p">,</span><span class="w"> </span><span class="n">b</span><span class="p">:</span><span class="w"> </span><span class="n">Vector</span><span class="p">)</span><span class="w"> </span><span class="o">-</span><span class="p">&gt;</span><span class="w"> </span><span class="n">Vector</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">Vector</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="n">x</span><span class="p">:</span><span class="w"> </span><span class="n">a</span><span class="p">.</span><span class="n">x</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">b</span><span class="p">.</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="p">:</span><span class="w"> </span><span class="n">a</span><span class="p">.</span><span class="n">y</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">b</span><span class="p">.</span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="n">z</span><span class="p">:</span><span class="w"> </span><span class="n">a</span><span class="p">.</span><span class="n">z</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">b</span><span class="p">.</span><span class="n">z</span><span class="w"> </span><span class="p">};</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>Operator functions participate in overload resolution like normal named functions.</p>
+<h2 id="methods">Methods<a class="headerlink" href="#methods" title="Permanent link">&para;</a></h2>
+<p>Methods are functions declared inside an <code>extend</code> block.</p>
+<div class="language-rux highlight"><pre><span></span><code><span class="k">extend</span><span class="w"> </span><span class="n">Vector</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">func</span><span class="w"> </span><span class="nf">Length</span><span class="p">(</span><span class="n">self</span><span class="p">)</span><span class="w"> </span><span class="o">-</span><span class="p">&gt;</span><span class="w"> </span><span class="kt">float64</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">Sqrt</span><span class="p">(</span><span class="n">self</span><span class="p">.</span><span class="n">x</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">self</span><span class="p">.</span><span class="n">x</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">self</span><span class="p">.</span><span class="n">y</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">self</span><span class="p">.</span><span class="n">y</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">self</span><span class="p">.</span><span class="n">z</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">self</span><span class="p">.</span><span class="n">z</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>Methods are called using the <code>.</code> syntax on a value, and the compiler resolves the correct method based on the receiver type.</p>
+<h2 id="external-functions">External functions<a class="headerlink" href="#external-functions" title="Permanent link">&para;</a></h2>
+<p>External functions are declared with <code>extern</code>.</p>
+<div class="language-rux highlight"><pre><span></span><code><span class="k">extern</span><span class="w"> </span><span class="k">func</span><span class="w"> </span><span class="nf">CreateFileA</span><span class="p">(</span><span class="n">name</span><span class="p">:</span><span class="w"> </span><span class="kt">char8</span><span class="p">[],</span><span class="w"> </span><span class="n">access</span><span class="p">:</span><span class="w"> </span><span class="kt">uint32</span><span class="p">)</span><span class="w"> </span><span class="o">-</span><span class="p">&gt;</span><span class="w"> </span><span class="o">*</span><span class="kt">opaque</span><span class="p">;</span>
+</code></pre></div>
+<p>These declarations describe symbols that are provided by a DLL, system library, or another external object file.</p>
+<h2 id="assembly-functions">Assembly functions<a class="headerlink" href="#assembly-functions" title="Permanent link">&para;</a></h2>
+<p>A function may be marked <code>asm</code>.</p>
+<div class="language-rux highlight"><pre><span></span><code><span class="k">asm</span><span class="w"> </span><span class="k">func</span><span class="w"> </span><span class="nf">FastAdd</span><span class="p">(</span><span class="n">a</span><span class="p">:</span><span class="w"> </span><span class="kt">int32</span><span class="p">,</span><span class="w"> </span><span class="n">b</span><span class="p">:</span><span class="w"> </span><span class="kt">int32</span><span class="p">)</span><span class="w"> </span><span class="o">-</span><span class="p">&gt;</span><span class="w"> </span><span class="kt">int32</span><span class="p">;</span>
+</code></pre></div>
+<p>Assembly functions are part of the function system, but their implementation is expected to come from assembly rather than normal Rux source.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -2221,10 +2482,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "/", "features": ["navigation.sections", "navigation.indexes", "navigation.top", "content.code.copy", "search.suggest", "search.highlight", "toc.follow"], "search": "/assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.sections", "navigation.indexes", "navigation.top", "content.code.copy", "search.suggest", "search.highlight", "toc.follow"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="/assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>
