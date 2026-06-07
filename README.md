@@ -4,4 +4,4 @@ This repository contains the source files for the official Rux documentation web
 
 Documentation website:
 
-https://rux-lang.github.io/Docs/
+https://rux-lang.github.io/docs/
